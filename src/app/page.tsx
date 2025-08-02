@@ -1,4 +1,9 @@
+import AddTimeTableForm from "./AddTimeTableForm";
 const page = () => {
-  return <div>In Production</div>;
+  return (
+    <div className="flex">
+      <AddTimeTableForm />
+    </div>
+  );
 };
 export default page;
